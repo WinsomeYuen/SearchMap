@@ -1,0 +1,51 @@
+html, body{
+    padding: 15px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #8EB3C6;
+    color: pink;
+}
+
+h2{
+    text-align: center;
+}
+
+#container{
+    color: #798287;
+    font-family: 'Comfortaa', cursive;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid pink;
+    border-radius: 4px;
+    background-color: #F0D0D6;
+    position: fixed; /*or absolute*/
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text]{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #798287;
+    background-color: #F0D0D6;
+}
+
+input[type=submit], input[type=button]{
+    font-family: 'Comfortaa', cursive;
+    border: 2px solid #798287;
+    background-color: #798287;
+    color: white;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+#mapid {
+    height: 280px;
+}

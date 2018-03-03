@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <title>Search Location</title>
+</head>
+<body>
+    <h2>Search Location</h2><br/><br/>
+    <div id="container">
+        <form method="POST" action="{{url_for('api_message')}}">
+            Location <input type="text" name="location"><br/><br/>
+            <input type="submit" value="Find">
+        </form>
+    </div>
+</body>
+</html>
